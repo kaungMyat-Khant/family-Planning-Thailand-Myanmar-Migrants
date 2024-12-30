@@ -21,6 +21,7 @@ We are collecting the data on contraceptive utilization or accessibility among t
 ### Sample Size Calculation Based on **Contraceptive Prevalence Rate**
 
 According to *Htoo et al*, the contraceptive prevalence rate was 0.801 [@soe_utilization_2008]. Sample size was calculated using *Cochran's formula*: 
+
 $$ n_0 = Z^2 \cdot \frac{p(1-p)}{E^2} $$  
 where:  
 
