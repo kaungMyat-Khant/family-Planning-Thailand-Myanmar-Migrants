@@ -46,11 +46,9 @@ where:
 
 ### Sample Size Calculation Based on **Contraceptive Prevalence Rate**
 
-According to *Htoo et al*, the contraceptive prevalence rate was 0.801 [@soe_utilization_2008]. Sample size was calculated using *Cochran's formula* 
+According to *Htoo et al*, the contraceptive prevalence rate was 0.801 [@soe_utilization_2008]. Sample size was calculated using *Cochran's formula*. 
 
   
-
-
 ```{r n_CPR, results='hide'}
 Z <- 1.96
 p <- 0.801
@@ -77,7 +75,7 @@ With a 95% confidence interval and margin of error of *0.05*, the sample size ba
 
 ### Sample Size Based on Population Information from IOM
 
-According to a brief report by International Organization of Migration, Overview of Myanmar Nationals in Thailand, the number of registered Myanmar migrants is **2,308,166** and **51%** are women [@iomthailand_overview_2024]. We used  *Yamane's formula*.
+According to a brief report by International Organization of Migration, Overview of Myanmar Nationals in Thailand, the number of registered Myanmar migrants is **2,308,166** and **51%** are women [@iomthailand_overview_2024]. We used  *Yamane's formula* to calculate the sample size.
 
 ```{r n_pop, results='hide'}
 total <- 2308166
